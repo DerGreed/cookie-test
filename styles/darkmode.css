@@ -1,0 +1,7 @@
+:not(a) {
+  color: white;
+  background-color: black;
+}
+a:visited {
+  color: cadetblue;
+}
