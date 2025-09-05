@@ -1,4 +1,4 @@
-body.darkmode, body.darkmode :not(a) {
+html:has(body.darkmode) :not(a) {
   color: white;
   background-color: black;
 

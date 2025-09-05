@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 const PORT = 3000;
-const USE_BODY_CLASS = false;
+const USE_BODY_CLASS = true;
 
 // Middleware
 app.use(cookieParser());
